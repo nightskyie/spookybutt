@@ -15,4 +15,4 @@ filename.close()
 for line in f:
     api.update_status(line)
     print line
-    time.sleep(360)
+    time.sleep(5)
